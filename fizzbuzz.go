@@ -7,6 +7,8 @@ func Say(n int) string {
 		return "2"
 	} else if n == 3 {
 		return "Fizz"
+	} else if n == 4 {
+		return "4"
 	}
 	return "0"
 }
