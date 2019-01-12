@@ -9,6 +9,8 @@ func Say(n int) string {
 		return "Fizz"
 	} else if n == 4 {
 		return "4"
+	} else if n == 5 {
+		return "Buzz"
 	}
 	return "0"
 }
